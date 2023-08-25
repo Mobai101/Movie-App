@@ -1,0 +1,19 @@
+.movieItem {
+  display: inline-block;
+  background-size: cover;
+  transition: all 0.2s ease-in-out;
+}
+
+.movieItem:hover {
+  transform: scale(1.1);
+}
+
+.poster {
+  height: 15rem;
+  min-width: 10rem;
+}
+
+.backdrop {
+  height: 10rem;
+  min-width: 20rem;
+}

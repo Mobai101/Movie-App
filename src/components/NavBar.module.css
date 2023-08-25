@@ -1,0 +1,48 @@
+.navbar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.blackBg {
+  background-color: black;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  color: #fa0101;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #f66565;
+}
+
+.navbar .search {
+  width: 2rem;
+  fill: #ccc;
+}
+
+svg:hover {
+  fill: #ffffff;
+}

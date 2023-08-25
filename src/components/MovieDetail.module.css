@@ -1,0 +1,28 @@
+.moviedetail {
+  padding: 2rem 0;
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+
+.detailText {
+  width: 50%;
+}
+
+.detailText h1 {
+  border-bottom: 1px solid white;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.detailText h4 {
+  line-height: 1.5rem;
+}
+
+.detailText p {
+  margin-top: 1rem;
+}
+
+.detailVideo {
+  width: 50%;
+}

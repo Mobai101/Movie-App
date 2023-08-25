@@ -1,0 +1,31 @@
+.banner {
+  height: 30rem;
+  color: white;
+  background-size: cover;
+}
+
+.banner h1 {
+  padding-top: 10rem;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.banner button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.banner p {
+  width: 30rem;
+  overflow: hidden;
+}

@@ -1,0 +1,76 @@
+.searchSection {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.searchForm {
+  background-color: #ffffff;
+  width: 40rem;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.inputDiv {
+  display: flex;
+  border-bottom: 2px solid #00bbec;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  gap: 1rem;
+}
+
+.inputDiv input {
+  margin-left: 0.5rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+}
+
+.inputDiv svg {
+  width: 2rem;
+  fill: #ccc;
+  margin-right: 1rem;
+}
+
+.actionDiv {
+  height: 7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 2rem;
+}
+
+.actionDiv button {
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.btnAlt {
+  background-color: transparent;
+}
+
+.btnAlt:hover {
+  background-color: #efeeee;
+}
+
+.btnAlt:active {
+  transform: translateY(2px);
+}
+
+.btnMain {
+  color: white;
+  background-color: #00bbec;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.15);
+}
+
+.btnMain:hover {
+  background-color: #3fd9ff;
+}
+
+.btnMain:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
